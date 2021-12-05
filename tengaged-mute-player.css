@@ -1,0 +1,13 @@
+div.ingame-players-bar.zoomable {
+	height: 100% !important;
+}
+
+div.ingame-players-20 div.usercard:hover, div.ingame-players-20 div.usercard:focus {
+	transform: none !important;
+	height: 116px !important;
+	box-shadow: none !important;
+}
+
+body {
+    background: black !important;
+}
