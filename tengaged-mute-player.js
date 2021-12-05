@@ -50,3 +50,9 @@ var mutationObserver = new MutationObserver(function(mutations) {
     muteChat();
   });
 });
+
+let publicComments = document.getElementsByClassName('ingame-messages')[1];
+
+mutationObserver.observe(publicComments,{
+	childList: true
+});
