@@ -9,5 +9,5 @@ div.ingame-players-20 div.usercard:hover, div.ingame-players-20 div.usercard:foc
 }
 
 body {
-    background: black !important;
+	background: linear-gradient(0deg, #FFF, #aaa) !important;
 }
